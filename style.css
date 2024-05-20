@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #6ecbe4fc;
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Start{
+    display: block;
+}
+#Start h1{
+    font-size: 100px;
+}
+
+#Start button{
+    margin-left: 300px;
+    margin-top: 100px;
+    font-size: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.neon-button {
+    background-color: #01f1f1; /* Neon cyan */
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 10px 2px;
+    cursor: pointer;
+    border: 5px solid #7bb9f7;
+    /* box-shadow: 0 0 10px #01f1f1, 0 0 20px #01f1f1, 0 0 30px #01f1f1, 0 0 40px #01f1f1; */
+  }
+
+#Game{
+    display: none;
+}
+
+
+#user-progress{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#progress{
+    width: 300px;
+    height: 50px;
+    border: 5px solid rgb(16, 133, 196);
+}
+
+#inner-progress{
+    background-color: #01f1f1;
+    width: 25%;
+    height: 50px;
+
+}
+
+#current-score{
+    font-size: 50px;
+}
+
+.question-container{
+    height: 400px;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.question{
+    padding: 15px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.option-container{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: first baseline;
+    flex-direction: column;
+      
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.option:hover{
+    transform: scale(1.06);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+.option-id{
+    width: 50px;
+    text-align: center;
+    background-color: #0129f1;
+    color: white;
+    padding: 10px;
+}
+
+.option-sentence{
+    width: 500px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+#End{
+    display: none;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 150px;
+}
+#End button{
+    padding: 10px; 
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+

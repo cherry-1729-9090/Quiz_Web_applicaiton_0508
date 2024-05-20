@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+            <section>
+
+            </section>
+        </header>
+        <section id = "main-body">
+
+            <!-- Start page of game -->
+            <section id = "Start">
+                <h1>Quiz Application</h1>
+                <button class="neon-button">Start</button>
+            </section>
+
+            <!-- Game -->
+            <section id = "Game">
+                <!-- User progress details such as question progress and the score -->
+                <section id = "user-progress">
+                    <div id = "question-progress">
+                        <h3>Question <span>1</span>/5</h3>
+                        <div id = "progress">
+                            <div id = "inner-progress"></div>
+                        </div>
+                    </div>
+    
+                    <div id = "Score">
+                        <h3>Score</h3>
+                        <div id = "current-score">0</div>
+                    </div>
+                </section>
+    
+                <!-- Question container -->
+                <section class="question-container">
+                    <!-- Question -->
+                    <div class="question">
+                        What is the answer to the following question? 
+                    </div>
+                    
+                    <!-- Option container -->
+                    <div class="option-container">
+                        <!-- Options -->
+                        <div class="option">
+                            <div class = "option-id" id = "A">A</div>
+                            <div class="option-sentence" id = "op1">option1</div>
+                        </div>
+                       
+                        <div class="option">
+                            <div class = "option-id" id = "B">B</div>
+                            <div class="option-sentence" id = "op2">option2</div>
+                        </div>
+    
+                        <div class="option">
+                            <div class = "option-id" id = "C">C</div>
+                            <div class="option-sentence" id = "op3">option3</div>
+                        </div>
+    
+                        <div class="option">
+                            <div class = "option-id" id = "D">D</div>
+                            <div class="option-sentence" id = "op4">option4</div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <section id = "End">
+                <div id="final-score">0</div>
+                <button id="restart">Play Again</button>
+                <button id = "home">Go Home</button>
+            </section>
+
+        </section>  
+        <script src="script.js"></script>    
+</body>
+</html>
